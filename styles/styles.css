@@ -187,6 +187,44 @@ header {
 /* ------------------------------------------- */
 
 /* ------------------------------------------- */
+/* Gallery Seciton Start */
+.gallery {
+    margin-bottom: 100px;
+}
+
+.gallery-img-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.gallery-title {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.gallery-img-grid img {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    transition: all .4s;
+    border-radius: 5px;
+
+}
+
+.gallery-img-grid img:hover {
+    transform: scale(1.09) translateY(-10px);
+}
+
+/* Gallery Seciton End */
+/* ------------------------------------------- */
+
+/* ------------------------------------------- */
 /* SignUp Seciton Start */
 /* ------------------------------------------- */
 .signup-section {
