@@ -364,6 +364,7 @@ footer {
   .highlights-intro {
     margin-bottom: 29px;
     margin-right: 0;
+    padding: 16px;
   }
   
   /* .highlights-details {
@@ -395,6 +396,10 @@ footer {
   .signup-title {
     font-size: 30px;
     line-height: 40px;
+  }
+  
+  .signup-content {
+      padding: 16px;
   }
 
   .footer-logo img {
