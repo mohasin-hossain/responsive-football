@@ -189,36 +189,34 @@ header {
 /* ------------------------------------------- */
 /* Gallery Seciton Start */
 .gallery {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .gallery-img-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    row-gap: 5px;
-    column-gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 5px;
+  column-gap: 5px;
 }
 
 .gallery-title {
-    font-size: 48px;
-    line-height: 60px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    text-align: center;
-
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .gallery-img-grid img {
-    width: 300px;
-    height: 300px;
-    cursor: pointer;
-    transition: all .4s;
-    border-radius: 5px;
-
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  transition: all 0.4s;
+  border-radius: 5px;
 }
 
 .gallery-img-grid img:hover {
-    transform: scale(1.09) translateY(-10px);
+  transform: scale(1.09) translateY(-10px);
 }
 
 /* Gallery Seciton End */
@@ -228,41 +226,41 @@ header {
 /* SignUp Seciton Start */
 /* ------------------------------------------- */
 .signup-section {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .signup-title {
-    font-size: 48px;
-    line-height: 60px;
-    font-weight: bold;
-    margin-bottom: 8px;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .signup-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .input-wrapper input {
-    border: 2px solid #e02c6d;
-    padding: 10px;
-    margin-top: 20px;;
+  border: 2px solid #e02c6d;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 .input-wrapper input:focus {
-    outline: none;
+  outline: none;
 }
 
 .input-wrapper button {
-    border: none;
-    padding: 12px;
-    background-color: #e02c6d;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    cursor: pointer;
-    margin-left: -5px;
+  border: none;
+  padding: 12px;
+  background-color: #e02c6d;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-left: -5px;
 }
 
 /* ------------------------------------------- */
@@ -273,12 +271,12 @@ header {
 /* Footer Section Start*/
 /* ------------------------------------------- */
 footer {
-    margin-bottom: 63px;
+  margin-bottom: 63px;
 }
 .footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-logo img {
@@ -287,20 +285,107 @@ footer {
 }
 
 .social-icons {
-    margin: 15px 0 20px 0;
+  margin: 15px 0 20px 0;
 }
 
 .social-icons img {
-    width: 32px;
-    height: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 .copyright {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #000000;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
 }
 /* ------------------------------------------- */
 /* Footer Section End */
 /* ------------------------------------------- */
+
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+/* MEDIA QUERIES */
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-intro {
+    margin-right: 0;
+    margin-top: 116px;
+  }
+  .header-title {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .header-hero-img img {
+    width: 329px;
+    height: 259.17px;
+    margin: 50px 0px 60px 0;
+  }
+  .players-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 27px;
+    /* place-items: center; */
+  }
+
+  .player-name {
+    font-size: 28px;
+  }
+
+  .highlights-section {
+    margin: 60px 0 60px 0;
+  }
+
+  .highlights-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .highlights-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .highlights-intro {
+    margin-bottom: 29px;
+  }
+
+  .highlights-img img {
+    width: 328px;
+    height: 248px;
+  }
+
+  .gallery-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .gallery-img-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .signup-title {
+      font-size: 30px;
+      line-height: 40px;
+  }
+
+  .footer-logo img {
+    width: 275px;
+    height: 60px;
+  }
+}
