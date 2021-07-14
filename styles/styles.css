@@ -106,6 +106,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 27px;
+  place-items: center;
 }
 
 .player {
@@ -115,11 +116,11 @@ header {
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   padding: 15px;
   cursor: pointer;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .player:hover {
-    transform: translateY(-10px) scale(1.01);
+  transform: translateY(-10px) scale(1.01);
 }
 
 .player-img img {
@@ -149,7 +150,37 @@ header {
 /* ------------------------------------------- */
 /* Highlights Section Start */
 /* ------------------------------------------- */
+.highlights-section {
+  margin-top: 165px;
+}
 
+.highlights-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.highlights-img img {
+  width: 567px;
+  height: 427px;
+}
+
+.highlights-title {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.highlights-intro {
+  margin-right: 66px;
+}
+
+.highlights-details {
+  margin: 8px 0 24px 0;
+  width: 404px;
+  height: 113px;
+}
 /* ------------------------------------------- */
 /* Highlights Seciton End */
 /* ------------------------------------------- */
